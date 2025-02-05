@@ -5,6 +5,9 @@ service CatalogService {
     entity businesspartner as projection on db.bp; 
     entity address as projection on db.ad;
 
+   
+   /// Combo is mix of BP and AD tables for sake of change
+   
     entity combo @(cds.redirection.target: False) as projection on db.bp {
     BP_ID,
     BP_ROLE,
