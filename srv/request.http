@@ -1,0 +1,37 @@
+### Posting
+
+POST http://localhost:4004/odata/v4/catalog/businesspartner
+content.Content-Type: application/json
+
+{
+   "CLIENT": "100",
+      "NODE_KEY": "750531BCE7BA1EDF91EAE92F3C4EAC23",
+      "BP_ROLE": "01",
+      "EMAIL_ADDRESS": "customer-do.not.reply@sap.com",
+      "PHONE_NUMBER": "0622734567",
+      "FAX_NUMBER": "0622734004",
+      "WEB_ADDRESS": "http://www.sap.com",
+      "ADDRESS_GUID_NODE_KEY": "750531BCE7BA1EDF91EAE92F3C2C2C23",
+      "BP_ID": "0100000000",
+      "COMPANY_NAME": "SAP",
+      "LEGAL_FORM": "SE",
+      "CREATED_BY": "750531BCE7BA1EDF91EAE92F3C194C23",
+      "CREATED_AT": "20240721114929.0000000",
+      "CHANGED_BY": "750531BCE7BA1EDF91EAE92F3C194C23",
+      "CHANGED_AT": "20240721114929.0000000",
+      "CURRENCY_CODE": "EUR",
+      "DUMMY_FIELD_BPA": null,
+      "APPROVAL_STATUS": "X" 
+            "CLIENT": "100",
+            "NODE_KEY": "750531BCE7BA1EDF91EAE92F3C0F8C23",
+            "CITY": "Munich",
+            "POSTAL_CODE": "85399",
+            "STREET": "Zeppelinstrasse",
+            "BUILDING": "2",
+            "COUNTRY": "DE",
+            "ADDRESS_TYPE": "02",
+            "VAL_START_DATE": "20000101",
+            "VAL_END_DATE": "99991231",
+            "LATITUDE": "48.331816000000",
+            "LONGITUDE": "11.736955000000"
+}
